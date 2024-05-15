@@ -1,0 +1,25 @@
+{
+  "development": {
+    "username": "sequelize_postgres_jv1u_user",
+    "password": "56ReslkB9w8aWa6SokoaY09IeCPj1qlY",
+    "database": "sequelize_postgres_jv1u",
+    "host": "dpg-cp2fjtev3ddc73clfi0g-a.oregon-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": true
+    }
+  },
+  "production": {
+    "username": "sequelize_postgres_jv1u_user",
+    "password": "56ReslkB9w8aWa6SokoaY09IeCPj1qlY",
+    "database": "sequelize_postgres_jv1u",
+    "host": "dpg-cp2fjtev3ddc73clfi0g-a.oregon-postgres.render.com",
+    "dialect": "postgres",
+    "dialectoptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  }
+}
