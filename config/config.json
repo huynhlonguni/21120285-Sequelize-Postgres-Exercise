@@ -15,11 +15,8 @@
     "database": "sequelize_postgres_jv1u",
     "host": "dpg-cp2fjtev3ddc73clfi0g-a.oregon-postgres.render.com",
     "dialect": "postgres",
-    "dialectoptions": {
-      "ssl": {
-        "require": true,
-        "rejectUnauthorized": false
-      }
+    "dialectOptions": {
+      "ssl": true
     }
   }
 }
